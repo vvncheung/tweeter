@@ -20,7 +20,6 @@ label {
 
 .div {
   display: flex;
-  
   align-items: flex-start;
 }
 
@@ -34,4 +33,8 @@ label {
 .counter {
   float: right;
   font-family: 'Bungee', sans-serif;
+}
+
+.over-max {
+  color: #ff0000;
 }
