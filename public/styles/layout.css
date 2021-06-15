@@ -28,8 +28,7 @@ body {
 .container {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+
   width: 90%;
   margin: auto;
-  
 }
