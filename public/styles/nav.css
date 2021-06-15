@@ -1,0 +1,46 @@
+/* div: navigation bar */
+.topnav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* z-index: -1;
+  position: relative; */
+  height: 120px;
+  background-color: #4056A1;
+  color: #FFFFFF;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+/* div: tweeter title */
+.title {
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+span {
+  font-family: 'Bungee', sans-serif;
+  font-size: 1.5em;
+}
+
+/* div: container to write new tweet */
+.newTweet {
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* div: div for 'write a new tweet' */
+.labelForNewTweet {
+  display: flex;
+}
+
+/* for icon */
+.newTweetButton {
+  display: flex;
+  justify-content: center;
+  color: red;
+}

@@ -1,0 +1,27 @@
+/* header container */
+.header {
+  display: flex;
+  top: 0px;
+  flex-direction: column;
+  width:100%;
+  height: 400px;
+  align-items:;
+  background-color: #e3a019;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+  background-repeat: repeat;
+  color: #FFFFFF;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.avatar {
+  display: flex; 
+  justify-content:center;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 0;
+  margin-bottom:0;
+}
