@@ -1,11 +1,23 @@
+body {
+  display:flex;
+  flex-direction: column;
+}
+
 /* div: navigation bar */
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
 .topnav {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  /* z-index: -1;
-  position: relative; */
+  z-index: -1;
   height: 120px;
   background-color: #4056A1;
   color: #FFFFFF;
@@ -18,7 +30,6 @@
 .title {
   display: flex;
   justify-content: flex-start;
-
 }
 
 span {
