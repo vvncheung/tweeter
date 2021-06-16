@@ -11,6 +11,7 @@ form textarea {
   border-bottom: 1px solid #000;
   font-size: small;
   background-color: #f4f1ec;
+  resize: none;
 }
 
 label {

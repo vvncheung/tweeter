@@ -2,6 +2,8 @@
   width: 80%;
   margin: auto;
   margin-top: 2em;
+  /* display: flex;
+  flex-direction: column-reverse; */
 }
 
 .tweet {
