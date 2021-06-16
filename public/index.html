@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
     <link rel="stylesheet" href="/styles/header.css" type="text/css" />
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/tweet.css" type="text/css" />
+
 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -22,8 +24,6 @@
 
     <!-- App JS -->
     <script type="text/javascript" src="/scripts/client.js"></script>
-  
-    <!-- character counter logic -->
     <script src="/scripts/composer-char-counter.js"></script>
   </head>
 
@@ -73,7 +73,31 @@
     </section>
 
     <section class="tweets-container">
+      <article class="tweet">
+        <header>
+          <div class="user">
+            <img src="/images/profile-hex.png" class="profile-pic"/>
+            <h1 id="name">Moogle Luna</h1>
+          </div>
+          <h1 id="username">@MoogleyTunes</h1>
+        </header>
 
+        <div class="tweet-body">
+          <p>tweet tweet said the lil birdie</p>
+        </div>
+
+        <footer>
+          <p>
+            20 days ago
+          </p>
+          <div>
+            <i class="fab fa-font-awesome-flag" id="flag"></i> 
+            <i class="fa fa-retweet" id="retweet"></i>  
+            <i class="fa fa-heart" id="heart"></i>  
+          </div>
+
+        </footer>
+      </article>
     </section>
 
   </main>
