@@ -55,7 +55,7 @@ const loadTweets = function() {
 
 $(document).ready(()=> {
 
-  const escape = function (str) {
+  const escape = function(str) {
     let div = document.createElement("div");
     div.appendChild(document.createTextNode(str));
     return div.innerHTML;
@@ -76,11 +76,17 @@ $(document).ready(()=> {
       data: serializedData
     };
 
-    if ($('textarea').val() === "" || $('textarea').val() == null) {
-      alert("There is no tweet to be tweeted.");
-    } else if ($('textarea').val().length >= 140) {
-      alert("Your tweet is too long.");
-    } else {
+    if ($('textarea').val() === "" || $('textarea').val() === null) {
+      console.log("error")
+      $(".error").slideDown("slow");
+      $('.error-message').text('❌ Please enter a tweet.');
+    }
+    if ($('textarea').val().length >= 140) {
+      $(".error").slideDown("slow");
+      $('.error-message').text('❌ Too long! Your tweet cannot exceed 140 characters.');
+    }
+    if (($('textarea').val()) && ($('textarea').val().length < 140)) {
+      $(".error").slideUp("slow");
       $.ajax(params)
         .done(() => {
           console.log("success");
@@ -93,5 +99,3 @@ $(document).ready(()=> {
     }
   });
 });
-
-

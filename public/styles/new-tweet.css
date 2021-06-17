@@ -39,3 +39,15 @@ label {
 .over-max {
   color: #ff0000;
 }
+
+.error {
+  display: none;
+  width: 70%;
+}
+
+.error-message {
+  height: 1em;
+  color: rgba(255, 0, 0, 0.418);
+  font-size: small;
+  font-weight: 600;
+}
