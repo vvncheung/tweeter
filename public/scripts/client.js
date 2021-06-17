@@ -42,7 +42,6 @@ const createTweetElement = function(tweet) {
   return html;
 };
 
-
 const loadTweets = function() {
   $.ajax('/tweets', { method: 'GET' })
     .done((data) => {
@@ -56,11 +55,20 @@ const loadTweets = function() {
 
 $(document).ready(()=> {
 
+  const escape = function (str) {
+    let div = document.createElement("div");
+    div.appendChild(document.createTextNode(str));
+    return div.innerHTML;
+  };
+
   const $button = $(".submit-button");
   loadTweets();
 
   $('form').on("submit", function(event) {
     event.preventDefault();
+    const safeString = `${escape($('#tweet-text').val())}`;
+    $('#tweet-text').val(safeString);
+    
     const serializedData = $('#tweet-text').serialize();
     let params = {
       method: 'POST',
