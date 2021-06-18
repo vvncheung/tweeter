@@ -90,8 +90,9 @@ $(document).ready(()=> {
       $.ajax(params)
         .done(() => {
           console.log("success");
-          $('textarea').val("");
           loadTweets();
+          $('textarea').val("");
+          $('#counter').html("140");
         })
         .fail(() => {
           console.log("fail");

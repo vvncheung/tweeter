@@ -64,23 +64,27 @@
     </div>
   </div>
 
-  <section class="new-tweet">
-    <h2>Compose Tweet</h2>
+  <div class="all-tweets">
+
+    <section class="new-tweet">
+      <h2>Compose Tweet</h2>
       <form>
-      <label for="tweet-text">What are you humming about?</label>
-      <section class="error">
-        <div class="error-message"></div>
-      </section> 
-      <textarea name="text" id="tweet-text"></textarea>
+        <label for="tweet-text">What are you humming about?</label>
+        <section class="error">
+          <div class="error-message"></div>
+        </section> 
+        <textarea name="text" id="tweet-text"></textarea>
         <div>
-        <button class="submit-button" type="submit">Tweet</button>
-        <output name="counter" id="counter" class="counter" for="tweet-text">140</output>
-      </div>
-    </form>
-  </section>
-
-  <section class="tweets-container"></section>
-
+          <button class="submit-button" type="submit">Tweet</button>
+          <output name="counter" id="counter" class="counter" for="tweet-text">140</output>
+        </div>
+      </form>
+    </section>
+    
+    <section class="tweets-container"></section>
+    
+  </div>
+    
   </main>
 </body>
 </html>
