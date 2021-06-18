@@ -25,10 +25,101 @@ body {
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
 
-.container {
+/* .container {
   display: flex;
   justify-content: center;
   width: 90%;
   margin: auto;
   flex-direction: column;
+} */
+
+/*Tablet styles */
+
+@media only screen and (min-width: 328px) and (max-width: 1023px) {
+  .body {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .topnav {
+    background-color: #e3a019;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+  }
+} 
+
+
+/* 
+.feature {
+  width: 33.3%;
+  line-height: 600px;
 }
+
+.container {
+  width: 66.7%;
+  float: right
+}  */
+
+
+/* Desktop styles */
+@media only screen and (min-width: 1024px) {
+  .body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .topnav {
+    background-color: #4056A1;
+  }
+  
+  .header {
+    width: 100%;
+    float: left;
+  }
+
+  .container {
+    display: flex;
+    float: right;
+    flex-direction: column;
+  }
+  
+  .main {
+    display: ;
+  }
+}
+  
+
+  /* .feature {
+    line-height: 300px;
+  }
+
+  .menu {
+    background-color: #111111;
+    color: #f0f0f0;
+    text-align: left;
+  } */
+
+
+  /* .tagline {
+    display: inline;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    color: tomato;
+    float: right;
+  }
+
+  .main {
+    max-width: 1024px;
+    font-size: 16px;
+    margin: 0 auto;
+  } */
