@@ -1,5 +1,4 @@
-/* header container */
-.header {
+.header-container {
   display: flex;
   flex-direction: column;
   background-color: #e3a019;
