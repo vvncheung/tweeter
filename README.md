@@ -4,7 +4,7 @@ Tweeter is a simple, single-page Twitter clone built with:
 - HTML, CSS, JS, jQuery and AJAX on the front-end, and
 - Node, Express, and MongoDB on the back-end.
 
-## Final Project
+## Screen shots
 
 ![Shown here: desktop version of app](https://github.com/vvncheung/tweeter/blob/master/public/docs/desktop.png?raw=true)
 `Shown here: Desktop version of Tweeter 🖥`
