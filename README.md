@@ -7,10 +7,11 @@ Tweeter is a simple, single-page Twitter clone built with:
 ## Final Project
 
 ![Shown here: desktop version of app](https://github.com/vvncheung/tweeter/blob/master/public/docs/desktop.png?raw=true)
-🖥 Desktop version of Tweeter
+`Shown here: Desktop version of Tweeter 🖥`
 
 ![Shown here: mobile version of app](https://github.com/vvncheung/tweeter/blob/master/public/docs/mobile.png?raw=true)
-📱 Mobile / tablet version of Tweeter
+
+`Shown here: Mobile / tablet version of Tweeter 📱`
 
 ## Getting Started
 
